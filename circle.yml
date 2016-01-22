@@ -1,5 +1,5 @@
 deployment:
-  dev:
-  branch: master
+  production: # just a label; label names are completely up to you
+    branch: master
     commands:
       - /bin/bash deploy.sh
