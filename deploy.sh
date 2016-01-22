@@ -11,4 +11,4 @@ curl -i -H "Authorization: Basic $AZURE_PUBLISH_PROFILE" -H "Content-Type:applic
 
 curl -i -X POST -H "Content-Length: 0" -H "Authorization: Basic $AZURE_PUBLISH_PROFILE" https://jaapem-webjob.scm.azurewebsites.net/api/triggeredwebjobs/run/run
 
-curl -i -H "Authorization: Basic $AZURE_PUBLISH_PROFILE" https://jaapem-webjob.scm.azurewebsites.net/api/triggeredwebjobs/run
+#curl -i -H "Authorization: Basic $AZURE_PUBLISH_PROFILE" https://jaapem-webjob.scm.azurewebsites.net/api/triggeredwebjobs/run
