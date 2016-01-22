@@ -2,4 +2,4 @@ deployment:
   dev:
   branch: master
     commands:
-    - /bin/bash deploy.sh
+      - /bin/bash deploy.sh
