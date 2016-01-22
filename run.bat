@@ -1,0 +1,1 @@
+"%JAVA_HOME%"\bin\java -jar hello-scala-assembly-1.0.jar
